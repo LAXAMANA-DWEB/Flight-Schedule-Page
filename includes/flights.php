@@ -1,9 +1,12 @@
 <?php
 
+// Author: Laxamana, Prince S.
+// Section: WD203
+// Date of Last Update: February 7, 2026
+
 $flights = [
 
-/* ---------- DOMESTIC FLIGHTS ---------- */
-
+// Domestic Flights
 [
     "flight_num"=>"5J-1108",
     "airline"=>"Cebu Pacific",
@@ -65,9 +68,7 @@ $flights = [
     "type"=>"Domestic"
 ],
 
-/* ---------- INTERNATIONAL FLIGHTS ---------- */
-
-
+// International Flights
 [
     "flight_num"=>"5J-198",
     "airline"=>"Cebu Pacific",
@@ -128,6 +129,5 @@ $flights = [
     "image"=>"images/sydney.webp",
     "type"=>"International"
 ]
-
 ];
 ?>

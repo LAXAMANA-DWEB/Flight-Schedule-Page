@@ -1,3 +1,9 @@
+/* 
+    Author: Laxamana, Prince S.
+    Section: WD203
+    Date of Last Update: February 7, 2026 
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 :root {
@@ -152,6 +158,28 @@ header {
     color: #777;
 }
 
+.other-timezones {
+    max-width: 900px;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 0.95rem;
+    padding: 1em;
+}
+
+.other-city {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--lawin-dark);
+}
+
+.other-date-time {
+    margin-top: 4px;
+    color: var(--lawin-dark);
+    font-weight: 500;
+}
+
 footer {
     text-align: center;
     padding: 2em;
@@ -169,5 +197,19 @@ footer {
 @media screen and (max-width: 980px) {
     .card-list {
         margin: 0 auto;
+    }
+
+    .other-timezones {
+        flex-direction: column;
+        gap: 1.5em;
+        padding: 1em 0.5em;
+    }
+
+    .other-city {
+        font-size: 1.1rem;
+    }
+
+    .other-date-time {
+        font-size: 0.9rem;
     }
 }

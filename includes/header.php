@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- 
+    Author: Laxamana, Prince S.
+    Section: WD203
+    Date of Last Update: February 7, 2026 
+-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
