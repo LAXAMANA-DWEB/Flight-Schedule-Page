@@ -35,7 +35,7 @@ include 'includes/header.php'
     ?>
 
 <div class="current-sched">
-    Current Time: <?= $current_time->format('l, M d, Y – h:i:s A'); ?>
+    <?= $current_time->format('l, M d, Y – h:i:s A') . " ({$current_time->getTimezone()->getName()})"; ?>
 </div>
 
 <main>
@@ -51,7 +51,7 @@ include 'includes/header.php'
 
             //Usage of diff
             $durationInterval = $depart->diff($arrival);
-            $durationFormatted = $durationInterval->format('%h hr %i min');
+            $duration_formatted = $durationInterval->format('%h hr %i min');
 
             //bonus (Time before depart)
             if ($current_time > $depart) {
@@ -92,7 +92,7 @@ include 'includes/header.php'
                 </p>
 
                 <p class="duration">
-                    Duration: <?= $durationFormatted; ?>
+                    Duration: <?= $duration_formatted; ?>
                 </p>
 
                 <p class="countdown">
